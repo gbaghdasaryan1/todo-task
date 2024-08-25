@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+
+
+form > input{
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+    outline: transparent;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+ button {
+    min-width: 80px;
+    height: 40px;
+    background-color: rgb(40, 40, 182);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.completed{
+    color: red;
+    text-decoration: line-through;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 0 ;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;
+}
